@@ -1,6 +1,6 @@
 import pygame
-from utils import load_sprite, get_random_position, print_text
-from models import Spaceship, Asteroid
+from src.utils import load_sprite, get_random_position, print_text
+from src.models import Spaceship, Asteroid
 
 class Game:
     MIN_ASTEROID_DISTANCE = 250

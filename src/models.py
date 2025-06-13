@@ -1,6 +1,6 @@
 from pygame.math import Vector2
 from pygame.transform import rotozoom # Responsável por dimensionar e girar imagens
-from utils import load_sprite, load_sound, wrap_position, get_random_velocity
+from src.utils import load_sprite, load_sound, wrap_position, get_random_velocity
 
 class GameObject:
     def __init__(self, position, sprite, velocity):
